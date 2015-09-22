@@ -11,10 +11,10 @@ conn = MySQLdb.connect("localhost","root","cookies","root$tutorial")
 c = conn.cursor()
 
 #Variables that contains the user credentials to access Twitter API 
-access_token = "21627027-w4cJ0ugNNFIXzyt3YOj3In2YumXpk28a4K9RszLte"
-access_token_secret = "C1kbLxrjjss8M73Dd1CUa8MgUFev2xieQjOnjZr4igNse"
-consumer_key = "8AyMTXfj10tWAv58dzQuTnVF9"
-consumer_secret = "y2dtTnAUU0WzPa8YjXIRAW1pVwr11NIY1EqZERb25lXqP3KmjW"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 
 #This is a basic listener that just prints received tweets to stdout.
